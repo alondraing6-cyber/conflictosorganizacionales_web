@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #c8bca4 0%, #e9b0d8 100%);
+  color: #fff;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 10%;
+  background: linear-gradient(120deg, #f54ca9 0%, #fdeb46 100%);
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  color: #f1e7d3;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  color: #f6e9d1;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.btn {
+  background: #f0c48a;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  color: #3b3b3b;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e5b371;
+}
+
+.hero-img {
+  flex: 1;
+  height: 100%;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;  
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background: #c56e97;
+  padding: 60px 8%;
+  border-radius: 30px;
+  margin: -50px 10% 60px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.feature {
+  text-align: center;
+  color: #e8e5d9;
+  flex: 1;
+  padding: 10px 15px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  color: #f1d8a4;
+  margin-bottom: 10px;
+}
+
+/* --- CARDS --- */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 60px 10%;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Colores de tarjetas */
+.verde { background: #4b7353; }
+.marron { background: #6b4935; }
+.marron-claro { background: #8a5b3f; }
+.beige { background: #bfa886; color: #3b3b3b; }
+.dorado { background: #d8b46a; color: #3b3b3b; }
+
+.imagen img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+
+footer {
+  text-align: center;
+  background: #77295d;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #e6e0cf;
+}
